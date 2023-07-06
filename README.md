@@ -1,10 +1,10 @@
 # BikeSalesAnalysis
 In this project I analyzed the data to create an interactive Dashboard to make Intelligent Business decisions
 
-##Introduction
+###Introduction
 Tableau is a powerful tool for data analysis and visualization, it helps to create reports, dashboards, and stories using different charts and graphs. The workbooks and the dashboards created using Tableau can be shared locally or publicly. Bike Sales Analysis is the process of identifying the Revenue of the sales in three years, who are the top customers of the store and which stores has highest revenue. This can help businesses to understand why they are losing customers and how to retain them, as well as to target new and existing customers more effectively.
 
-##About this project
+###About this project
 In this project, I used the following steps to create the bike sales analysis:
 
 - I created a tables in SSMS and connected that to Excel data sources and imported the relevant tables into tableau.
@@ -13,7 +13,7 @@ In this project, I used the following steps to create the bike sales analysis:
 - Prepared reports with slicers for date range and country, and visuals such as bar, line, pie, and heat map to show the trends and breakdowns of Bike 
   sales.
 
-##ETL
+###ETL
 - I extracted the data from database
 - Using the 'Concat' function transformed the data as customers,revenue, sales_rep
 - Loaded the data in tableau desktop for analysis of the bake sales
@@ -47,7 +47,8 @@ cus.city,cus.state,ord.order_date, pro.product_name,
 cat.category_name,sto.store_name,
 CONCAT(sta.first_name,' ',sta.last_name)
 
-##Report
+###Report
+
 The chart below shows the executive dashboard of bike sales.
 ![image](https://github.com/vidd01/BikeSalesAnalysis/assets/122332733/78a44ae6-c336-441b-8360-7b4648c63421)
 
